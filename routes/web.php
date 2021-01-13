@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('layouts.home');
 });
 
-// Route::get('tst', function () {
-//     return view('layouts.home');
-// });
+ Route::get('trayectoria', function () {
+     return view('layouts.trayectoria');
+});

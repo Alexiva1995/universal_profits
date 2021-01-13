@@ -1,3 +1,8 @@
+body {
+    font-family: Swis721 LtEx BT;
+}
+
+
 /*navbar*/
 
 .navbar {
@@ -21,12 +26,46 @@
 }
 
 
+/*Trayectori*/
+
+.background-hero {
+    background-image: url('../img/sllider-trayectoria/slider-trayectoria.jpg');
+    background-attachment: absolute;
+    background-size: cover;
+    height: 600px;
+}
+
+.trayectoria,
+.quienes-somos,
+.sub-meenu-somos {
+    display: flex;
+    justify-content: center
+}
+
+.trayectoria h1 {
+    font-size: 60px;
+    color: #f1f1f1;
+    margin-top: 45%;
+}
+
+.quienes-somos {
+    padding: 30px 0;
+}
+
+.sub-meenu-somos a {
+    display: block;
+    margin: auto;
+    color: #4e4e4e;
+}
+
+
 /*footer*/
 
 .socials {
     display: table;
     align-items: center;
-    margin: 20px auto;
+    margin: 20px auto 5px;
+    height: 40px;
 }
 
 .socials i {

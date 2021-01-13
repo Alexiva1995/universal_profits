@@ -5,7 +5,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav ">
+          <ul class="navbar-nav mr-5">
             <li class="nav-item active">
               <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
@@ -23,7 +23,7 @@
             </li>
             
           </ul>
-          <ul class="navbar-nav justify-content-end ml-5">
+          <ul class="navbar-nav justify-content-end ">
             <li class="nav-item ">
                 <a class="nav-link" href="#" >MI OFICINA</a>
             </li>
