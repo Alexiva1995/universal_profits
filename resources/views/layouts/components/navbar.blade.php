@@ -16,10 +16,10 @@
               <a class="nav-link" href="{{route('servicios')}}">SERVICIOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" >EMPRESARIO UP</a>
+              <a class="nav-link" href="{{route('empresarios')}}" >EMPRESARIO UP</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" >COMUNIDAD UNIVERSAL</a>
+                <a class="nav-link" href="{{route('comunidad')}}" >COMUNIDAD UNIVERSAL</a>
             </li>
             
           </ul>

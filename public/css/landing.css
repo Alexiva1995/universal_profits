@@ -39,6 +39,7 @@ body {
 .quienes-somos,
 .sub-meenu-somos,
 .empresario,
+.comunidad,
 .services {
     display: flex;
     justify-content: center
@@ -203,6 +204,22 @@ body {
 .logos-bonus img {
     display: block;
     margin: 10px auto;
+}
+
+
+/*cmunidad*/
+
+.background-comunidad {
+    background-image: url('../img/comunidad/comunidad.jpg');
+    background-attachment: absolute;
+    background-size: cover;
+    height: 600px;
+}
+
+.comunidad h1 {
+    font-size: 60px;
+    color: #f1f1f1;
+    margin-top: 25%;
 }
 
 

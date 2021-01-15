@@ -28,4 +28,10 @@ Route::get('servicios', function(){
 
 Route::get('empresarios', function(){
     return view('layouts.empresarios');
-})->name('eempresarios');
+})->name('empresarios');
+
+
+Route::get('comunidad', function(){
+    return view('layouts.comunidad');
+})->name('comunidad');
+
