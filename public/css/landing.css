@@ -42,6 +42,14 @@ body {
     justify-content: center
 }
 
+.sub-meenu-somos li {
+    margin: 0 15px;
+}
+
+.sub-meenu-somos li.active {
+    list-style: disc;
+}
+
 .trayectoria h1 {
     font-size: 60px;
     color: #f1f1f1;
@@ -56,6 +64,44 @@ body {
     display: block;
     margin: auto;
     color: #4e4e4e;
+    padding: 0;
+}
+
+.text-team-content {
+    width: 84%;
+    justify-content: end;
+    margin-top: 20%;
+}
+
+.rigt-text-content img {
+    display: block;
+    margin: auto;
+}
+
+.rigt-text-content img {
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+#donde img {
+    display: block;
+    margin: auto;
+}
+
+.img-mueve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-mueve img {
+    margin: 5px 5px
+}
+
+#donde,
+#mueve,
+#aliados {
+    display: none
 }
 
 

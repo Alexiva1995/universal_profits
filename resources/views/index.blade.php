@@ -24,11 +24,13 @@
     <link href="{{ asset('css/landing.css') }}" rel="stylesheet">
 </head>
 <body>
+    @include('layouts.components.scripts')
     @include('layouts.components.navbar')
 
     @yield('content')
 
     @include('layouts.components.footer')
+    
     
 </body>
 </html>
