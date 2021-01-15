@@ -72,4 +72,45 @@ function showEquipo(){
 }
 
 
+function showUniversal(){
+    var element = document.getElementById("un-link");
+    element.classList.add('active');
+    var elementr1 = document.getElementById('cl-link')
+    var elementr2 = document.getElementById('pr-link')
+    elementr1.classList.remove('active');
+    elementr2.classList.remove('active');   
+   
+    $("#universal").css("display", "block");
+    $("#clup").css("display", "none");
+    $("#pro").css("display", "none");
+    
+}
+
+function showClup() {
+    var element = document.getElementById("cl-link");
+    element.classList.add('active');
+    var elementr1 = document.getElementById('un-link')
+    var elementr2 = document.getElementById('pr-link')
+    elementr1.classList.remove('active');
+    elementr2.classList.remove('active');    
+    $("#universal").css("display", "none");
+    $("#clup").css("display", "block");
+    $("#pro").css("display", "none");
+    
+}
+function showPro() {
+    var element = document.getElementById("pr-link");
+    element.classList.add('active');
+    var elementr1 = document.getElementById('un-link')
+    var elementr2 = document.getElementById('cl-link')
+    elementr1.classList.remove('active');
+    elementr2.classList.remove('active');     
+    $("#universal").css("display", "none");
+    $("#clup").css("display", "none");
+    $("#pro").css("display", "block");
+    
+}
+
+
+
 </script>

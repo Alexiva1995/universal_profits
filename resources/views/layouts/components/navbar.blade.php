@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav mr-5">
             <li class="nav-item ">
-              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="{{route('home')}}">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">TRAYECTORIA</a>
+              <a class="nav-link" href="{{route('trayectoria')}}">TRAYECTORIA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVICIOS</a>
+              <a class="nav-link" href="{{route('servicios')}}">SERVICIOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" >EMPRESARIO UP</a>

@@ -95,7 +95,7 @@
     <div class="row justify-content-end">
         <div class="col-sm col-md-4 offset-md-2">
             
-                <p class="text-team-content">Somos un fond de inversion capital mixt, con respaldo y presencia en Europa, Norteamérica y Colombia, que cubre operraciones globales para clientes de banca o comercio internacional.</p>
+                <p class="text-team-content-pro">Somos un fond de inversion capital mixt, con respaldo y presencia en Europa, Norteamérica y Colombia, que cubre operraciones globales para clientes de banca o comercio internacional.</p>
             
         </div>
         <div class="col-sm col-md-6 rigt-text-content">
@@ -115,5 +115,8 @@
         </div>
     </div>
 </div>
+
+
+
      
 @endsection

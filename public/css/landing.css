@@ -100,8 +100,69 @@ body {
 
 #donde,
 #mueve,
-#aliados {
+#aliados,
+#clu,
+#pro {
     display: none
+}
+
+
+/*SERVICES*/
+
+.background-services {
+    background-image: url('../img/servicios/slider01.jpg');
+    background-attachment: absolute;
+    background-size: cover;
+    height: 600px;
+}
+
+.servicios h1 {
+    font-size: 60px;
+    color: #f1f1f1;
+    margin-top: 25%;
+}
+
+.services-nav .sub-meenu-somos li {
+    margin: 0 105px;
+}
+
+.rigt-text-services {
+    margin-top: 80px
+}
+
+.content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+}
+
+.line-services {
+    max-width: 70px;
+    border-top: solid 4px;
+    margin-top: -10px;
+}
+
+.content-img-clu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+}
+
+.content-img-pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.text-team-content-pro {
+    margin-top: 120px;
+}
+
+.rigt-text-services-pro {
+    margin-top: 150px
 }
 
 
