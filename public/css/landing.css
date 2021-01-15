@@ -37,7 +37,9 @@ body {
 
 .trayectoria,
 .quienes-somos,
-.sub-meenu-somos {
+.sub-meenu-somos,
+.empresario,
+.services {
     display: flex;
     justify-content: center
 }
@@ -163,6 +165,44 @@ body {
 
 .rigt-text-services-pro {
     margin-top: 150px
+}
+
+
+/*empresario*/
+
+.background-empresario {
+    background-image: url('../img/empresario/slider.jpg');
+    background-attachment: absolute;
+    background-size: cover;
+    height: 600px;
+}
+
+.empresario h1 {
+    font-size: 60px;
+    color: #000000;
+    margin-top: 45%;
+}
+
+.content-img-empresario {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.img-empresarios {
+    border-radius: 50%;
+}
+
+.text-content-services {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.logos-bonus img {
+    display: block;
+    margin: 10px auto;
 }
 
 

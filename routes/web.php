@@ -24,3 +24,8 @@ Route::get('/', function () {
 Route::get('servicios', function(){
     return view('layouts.servicios');
 })->name('servicios');
+
+
+Route::get('empresarios', function(){
+    return view('layouts.empresarios');
+})->name('eempresarios');
