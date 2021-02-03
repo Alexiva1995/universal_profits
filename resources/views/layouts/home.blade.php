@@ -1,6 +1,6 @@
 @extends('index')
 @section('content')
-<div class="cotainer-fluid">
+<div class="cotainer">
     <div class="row">
         <div class="col-sm">
             <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">

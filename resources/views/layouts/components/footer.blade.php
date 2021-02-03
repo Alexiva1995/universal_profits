@@ -1,31 +1,35 @@
 <footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-1 col-md-4 content-icons">
-                <div class="socials">
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-youtube"></i>
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-between">
+            <div class="content-icons">
+                <div class="socials d-flex justify-content-center">
+                    <a href="javascript:void(0)">
+                        <i class="border fab fa-instagram"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <i class="border fab fa-facebook-f"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <i class="border fab fa-youtube"></i>
+                    </a>
                 </div>                           
     
             </div>
-            <div class="col-sm-1 col-md-4 content-icons">
-                <div class="socials">
+            <div class="content-icons">
+                <div class="abouts">
                     
-                    <i class="fas fa-envelope"></i>
-                    <a href="" class="allign-middle">servicio@universal-profits.com </a>
+                    <i class="social fas fa-envelope"></i>
+                    <a href="javascript:void(0)" class="allign-middle">servicio@universal-profits.com </a>
                 </div>                           
     
             </div>
-            <div class="col-sm-1 col-md-4 content-icons">
-                <div class="socials">
-                    <i class="fab fa-whatsapp"></i>
-                    <a class="allign-middle">WHATSAPP DE ATENCIÓN</a>
-                    
-                    
+            <div class="content-icons">
+                <div class="abouts">
+                    <i class="social fab fa-whatsapp"></i>
+                    <a href="javascript:void(0)" class="allign-middle">WHATSAPP DE ATENCIÓN</a>
                 </div>                           
     
             </div>
         </div>
-    </div>
+    </div><!-- End container -->
 </footer>

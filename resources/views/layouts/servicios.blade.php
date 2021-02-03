@@ -10,97 +10,94 @@
     </div>
   </div>
 </div>
-<div class="container mt-5 ml-5 services-nav">
+<div class="content-tabs-services">
+    <div class="container  services-nav">
 
-    <ul class="nav justify-content-center sub-meenu-somos ">
-        <li class="nav-item active" id="un-link">
-          <a class="nav-link active" href="#universal" onclick="showUniversal()" >UNIVERSAL ACADEMY</a>
-        </li>
-        <li class="nav-item" id="cl-link">
-          <a class="nav-link" href="#clup" onclick="showClup()" >CLUP</a>
-        </li>
-        <li class="nav-item" id="pr-link">
-          <a class="nav-link" href="#pro" onclick="showPro()" >PRO INVESTOR </a>
-        </li>
+        <ul class="menu-items menu-services pt-5">
+            <li class="nav-item" openOp="#universal">
+              <a class="nav-link" href="javascript:void(0)" >UNIVERSAL ACADEMY</a>
+            </li>
+            <li class="nav-item" openOp="#clup">
+              <a class="nav-link" href="javascript:void(0)">CLUP</a>
+            </li>
+            <li class="nav-item" openOp="#pro">
+              <a class="nav-link" href="javascript:void(0)" >PRO INVESTOR </a>
+            </li>
+            
+          </ul>
         
-      </ul>
-    
-</div>
-
-
-<div class="container " id="universal">
-    <div class="row justify-content-end">
-        <div class="col-sm col-md-5 offset-md-1">
-            
-                <p class="text-team-content">Universal acadmy es una plataforma e-learning por medio de la cual llos empresarios encontrarán diferentes categorías de formación en hablidades blandas y técnicas. </p>
-            
-        </div>
-        <div class="col-sm col-md-6 rigt-text-services">
-            
-            <h4 class="text-center">LA ACADEMIA DEL FUTURO</h4>
-        </div>
-        
-
-    </div>
-
-    <div class="content-img">
-        <img src="https://dummyimage.com/600x400/00aaaa/0011ff" class="img-fluid" alt="Responsive image">
     </div>
 
 
-</div>
-
-
-<div class="container " id="clup">
-    <div class="row justify-content-end">
-
-
-        <div class="col-sm col-md-6 rigt-text-services">
+    <div class="container content-height ocultar" id="universal">
+        <div class="row justify-content-end">
+            <div class="col-sm col-md-5 offset-md-1">
+                
+                    <p class="text-team-content">Universal acadmy es una plataforma e-learning por medio de la cual llos empresarios encontrarán diferentes categorías de formación en hablidades blandas y técnicas. </p>
+                
+            </div>
+            <div class="col-sm col-md-6 rigt-text-services">
+                
+                <h4 class="text-center strac-services">LA ACADEMIA DEL FUTURO</h4>
+            </div>
             
-            <h4 class="text-center">LA ACADEMIA DEL FUTURO</h4>
+
         </div>
-        <div class="col-sm col-md-5 offset-md-1">
-            
-                <p class="text-team-content">Clup es la plataforma a nivel tecnologíco donde el usuario podrá hacer uso de las herramientas para la construcción de equipos a través del modlo de MLM</p>
-            
+
+        <div class="content-img">
+            <img src="https://dummyimage.com/600x400/00aaaa/0011ff" class="img-fluid" alt="Responsive image">
         </div>
-        
-        
 
-    </div>
 
-    <div class="content-img-clu">
-        <img src="https://dummyimage.com/600x400/00aaaa/0011ff" class="img-fluid" alt="Responsive image">
-    </div>
-    
+    </div><!-- End container -->
 
-</div>
 
-<div class="container " id="pro">
-    <div class="row justify-content-end">
-        <div class="col-sm col-md-5 offset-md-1">
+    <div class="container content-height ocultar" id="clup">
+        <div class="row justify-content-end">
+
+
+            <div class="col-sm col-md-6 rigt-text-services">
+                
+                <h4 class="text-center strac-services">LA ACADEMIA DEL FUTURO</h4>
+            </div>
+            <div class="col-sm col-md-5 offset-md-1">
+                
+                    <p class="text-team-content">Clup es la plataforma a nivel tecnologíco donde el usuario podrá hacer uso de las herramientas para la construcción de equipos a través del modlo de MLM</p>
+                
+            </div>
             
-                <p class="text-team-content-pro">Elite es un servicio de universal profits con el cual nuestros usuarios pueden conocer de los servicios externos que también aceptan como método de pago o consumo los upoint.</p>
             
+
         </div>
-        <div class="col-sm col-md-6 rigt-text-services-pro">
-            
-            <h5 class="text-center">TODO UN UNIVERSO</h5>
+
+        <div class="content-img-clu">
+            <img src="https://dummyimage.com/600x400/00aaaa/0011ff" class="img-fluid" alt="Responsive image">
         </div>
         
 
-    </div>
+    </div><!-- End container -->
 
-    <div class="content-img-pro">
-        <img src="https://dummyimage.com/600x400/00aaaa/0011ff" class="img-fluid" alt="Responsive image">
-    </div>
+    <div class="container content-height ocultar" id="pro">
+        <div class="row justify-content-end">
+            <div class="col-sm col-md-5 offset-md-1">
+                
+                    <p class="text-team-content">Elite es un servicio de universal profits con el cual nuestros usuarios pueden conocer de los servicios externos que también aceptan como método de pago o consumo los upoint.</p>
+                
+            </div>
+            <div class="col-sm col-md-6 rigt-text-services-pro">
+                
+                <h5 class="text-center strac-services">TODO UN UNIVERSO</h5>
+            </div>
+            
+
+        </div>
+
+        <div class="content-img-pro">
+            <img src="https://dummyimage.com/600x400/00aaaa/0011ff" class="img-fluid" alt="Responsive image">
+        </div>
 
 
-</div>
-
-
-
-
+    </div><!-- End container -->
 
 
 <div class="cotainer">
@@ -111,5 +108,11 @@
         </div>
     </div>
 </div>
+    
+</div>
+
+
+
+
 
 @endsection
