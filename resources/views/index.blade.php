@@ -24,7 +24,7 @@
     <link href="{{ asset('css/landing.css') }}" rel="stylesheet">
 </head>
 <body>
-    @include('layouts.components.scripts')
+    {{-- @include('layouts.components.scripts') --}}
     @include('layouts.components.navbar')
 
     @yield('content')
@@ -32,5 +32,7 @@
     @include('layouts.components.footer')
     
     
+    <!-- Scripts -->
+    <script src="{{ asset('js/main.js') }}" defer></script>
 </body>
 </html>
