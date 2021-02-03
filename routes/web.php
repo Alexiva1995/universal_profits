@@ -35,3 +35,7 @@ Route::get('comunidad', function(){
     return view('layouts.comunidad');
 })->name('comunidad');
 
+Route::get('mi-oficina', function(){
+    return view('layouts.oficina');
+})->name('mi-oficina');
+
